@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="home_drawables">
+        <item>@drawable/home_personal</item>
+        <item>@drawable/home_check_list</item>
+    </integer-array>
+
+    <string-array name="home_names">
+        <item>Alta Trabajador</item>
+        <item>Pase de Lista</item>
+    </string-array>
+
+</resources>

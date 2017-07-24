@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "401180139931",
+    "firebase_url": "https://admin-personal.firebaseio.com",
+    "project_id": "admin-personal",
+    "storage_bucket": "admin-personal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401180139931:android:a33394cdbc8c9559",
+        "android_client_info": {
+          "package_name": "com.asociadosmonterrubio.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401180139931-v9f15pvk2l3dtp1tqc5fchjfidt1kp67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWjHE0ROMs2Bqvg6_PXY9bogTfrGhHfKo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
