@@ -12,12 +12,12 @@ public class Employee {
 
     private String key;
     private String Actividad;
-    private String Apellido_Materno;
-    private String Apellido_Paterno;
+    private String ApellidoMATERNO;
+    private String ApellidoPATERNO;
     private String CURP;
     private String Contrato;
-    private String Fecha_Nacimiento;
-    private String Lugar_Nacimiento;
+    private String FechaNACIMIENTO;
+    private String LugarNACIMIENTO;
     private String Nombre;
     private Bitmap image;
     private long ID;
@@ -40,20 +40,20 @@ public class Employee {
         Actividad = actividad;
     }
 
-    public String getApellido_Materno() {
-        return Apellido_Materno;
+    public String getApellidoMATERNO() {
+        return ApellidoMATERNO;
     }
 
-    public void setApellido_Materno(String apellido_Materno) {
-        Apellido_Materno = apellido_Materno;
+    public void setApellidoMATERNO(String apellidoMATERNO) {
+        ApellidoMATERNO = apellidoMATERNO;
     }
 
-    public String getApellido_Paterno() {
-        return Apellido_Paterno;
+    public String getApellidoPATERNO() {
+        return ApellidoPATERNO;
     }
 
-    public void setApellido_Paterno(String apellido_Paterno) {
-        Apellido_Paterno = apellido_Paterno;
+    public void setApellidoPATERNO(String apellidoPATERNO) {
+        ApellidoPATERNO = apellidoPATERNO;
     }
 
     public String getCURP() {
@@ -72,20 +72,20 @@ public class Employee {
         Contrato = contrato;
     }
 
-    public String getFecha_Nacimiento() {
-        return Fecha_Nacimiento;
+    public String getFechaNACIMIENTO() {
+        return FechaNACIMIENTO;
     }
 
-    public void setFecha_Nacimiento(String fecha_Nacimiento) {
-        Fecha_Nacimiento = fecha_Nacimiento;
+    public void setFechaNACIMIENTO(String fechaNACIMIENTO) {
+        FechaNACIMIENTO = fechaNACIMIENTO;
     }
 
-    public String getLugar_Nacimiento() {
-        return Lugar_Nacimiento;
+    public String getLugarNACIMIENTO() {
+        return LugarNACIMIENTO;
     }
 
-    public void setLugar_Nacimiento(String lugar_Nacimiento) {
-        Lugar_Nacimiento = lugar_Nacimiento;
+    public void setLugarNACIMIENTO(String lugarNACIMIENTO) {
+        LugarNACIMIENTO = lugarNACIMIENTO;
     }
 
     public String getNombre() {
@@ -96,19 +96,19 @@ public class Employee {
         Nombre = nombre;
     }
 
-    public long getID() {
-        return ID;
-    }
-
-    public void setID(long ID) {
-        this.ID = ID;
-    }
-
     public Bitmap getImage() {
         return image;
     }
 
     public void setImage(Bitmap image) {
         this.image = image;
+    }
+
+    public long getID() {
+        return ID;
+    }
+
+    public void setID(long ID) {
+        this.ID = ID;
     }
 }
