@@ -7,7 +7,7 @@ package com.asociadosmonterrubio.admin.models;
 public class Salidas {
 
     private String id;
-    private String numeroCamion;
+    private String numeroCAMION;
     private String campo;
     private String fecha;
 
@@ -19,12 +19,12 @@ public class Salidas {
         this.id = id;
     }
 
-    public String getNumeroCamion() {
-        return numeroCamion;
+    public String getNumeroCAMION() {
+        return numeroCAMION;
     }
 
-    public void setNumeroCamion(String numeroCamion) {
-        this.numeroCamion = numeroCamion;
+    public void setNumeroCAMION(String numeroCAMION) {
+        this.numeroCAMION = numeroCAMION;
     }
 
     public String getCampo() {
